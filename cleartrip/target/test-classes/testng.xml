@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression" verbose="0" parallel="methods"> 
+   <test name="cleartrip" parallel="methods">
+ 	   
+	    <classes>
+  		<class name="com.EnterFromPlace"/>
+ 		 <class name="com.EnterToPlace"/>
+ 		<class name="com.ClickOnHotels"/> 
+ 		<class name="com.ClickOnLocal"/> 		
+ 		 	</classes>  
+
+  </test>
+ </suite>
+
